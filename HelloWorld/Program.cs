@@ -10,7 +10,10 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Word
+            Console.WriteLine("SHALOM WORLD");
+            Console.WriteLine("Press a Key");
+            Console.Beep(100, 5000);
+            Console.ReadKey();
         }
     }
 }
