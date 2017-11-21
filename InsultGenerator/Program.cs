@@ -46,7 +46,7 @@ namespace InsultGenerator
         }
         private static string GetAdjective(Random rnd)
         {
-            string[] adjectives = { "a cheesy", "a mouldy", "a thick", "an albino", "a creamy" };
+            string[] adjectives = { "a cheesy,", "a mouldy,", "a thick,", "an albino,", "a creamy," };
             return adjectives[rnd.Next(4)];
         }
     }

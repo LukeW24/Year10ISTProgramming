@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magic8-Ball", "Magic8-Ball\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsultGenerator", "InsultGenerator\InsultGenerator.csproj", "{3B478CFD-DD70-4961-AF8E-15EBB4853A2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabyBlackJack", "BabyBlackJack\BabyBlackJack.csproj", "{3E3CD51D-6FBE-49E2-AFCB-6505B827C270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person", "Person\Person.csproj", "{0B066FC6-8224-473C-B2B6-F6CA877738DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{3B478CFD-DD70-4961-AF8E-15EBB4853A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B478CFD-DD70-4961-AF8E-15EBB4853A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B478CFD-DD70-4961-AF8E-15EBB4853A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E3CD51D-6FBE-49E2-AFCB-6505B827C270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E3CD51D-6FBE-49E2-AFCB-6505B827C270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E3CD51D-6FBE-49E2-AFCB-6505B827C270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E3CD51D-6FBE-49E2-AFCB-6505B827C270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B066FC6-8224-473C-B2B6-F6CA877738DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B066FC6-8224-473C-B2B6-F6CA877738DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B066FC6-8224-473C-B2B6-F6CA877738DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B066FC6-8224-473C-B2B6-F6CA877738DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
