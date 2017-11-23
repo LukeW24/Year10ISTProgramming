@@ -4,36 +4,57 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Person
+namespace Classes
 {
     class Program
     {
         static void Main(string[] args)
         {
-            House h = new House("clean and expensive");
-
-            h.
+            Person p = new Person("Johnno", "McDuncan", 78);
+            p.Sit();
+            p.Stand();  
         }
     }
 
-    class House
+    class Person
     {
-        private string roofMaterial;
-        private string wallMaterial;
-        private int length;
-        private int width;
-        private bool occupied;
-        private string quality;
+        private string firstName;
+        private string lastName;
+        private int age;
+        private bool sitting;
+        private int steps;
 
-        public House(string quality, bool occupied)
+        public Person(string firstName, string lastName, int age)
         {
-            this.roofMaterial;
-            this.wallMaterial;
-            this.quality = quality;
-           
-            occupied = true;
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.age = age;
+            sitting = true;
+            steps = 0;
         }
 
-        public void long
+        public void Sit()
+        {
+            if (sitting)
+            {
+                Console.WriteLine($"{firstName} {lastName} is already sitting");
+            }
+            else
+            {
+                sitting = true;
+            }
+        }
+
+        public void Stand()
+        {
+            if (sitting)
+            {
+                sitting = false;
+            }
+            else
+            {
+                Console.WriteLine($"{firstName} {lastName} is already standing");
+            }
+        }
     }
 }
